@@ -91,13 +91,13 @@
   font: 700 1.6rem Archivo;
   display: flex;
   align-items: center;
-  justify-content: center;  
+  justify-content: center;
   text-decoration: none;
   transition: background-color 0.2s;
   margin-top: 3.2rem;
 }
 
-#page-teacher-form mian footer button:hover {
+#page-teacher-form main footer button:hover {
   background: var(--color-secundary-dark);
 }
 
@@ -114,13 +114,13 @@
     padding: 0 6.4rem;
   }
 
-  #page-teacher-form main fieldset .schedule-item {
+  #page-teacher-form main .schedule-item {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
     column-gap: 1.6rem;
   }
 
-  #page-teacher-form main fieldset .schedule-item .input-block {
+  #page-teacher-form main .schedule-item .input-block {
     margin-top: 0 !important;
   }
 
