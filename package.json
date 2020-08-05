@@ -38,6 +38,7 @@
     ]
   },
   "devDependencies": {
+    "@types/knex": "^0.16.1",
     "@types/react-router-dom": "^5.1.5"
   }
 }
