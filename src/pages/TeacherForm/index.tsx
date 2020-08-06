@@ -123,16 +123,21 @@ function TeacherForm() {
               value={subject}
               onChange={e => setSubject(e.target.value)}
               options={[
-                { value: 'Artes', label: 'Artes' },
-                { value: 'Biologia', label: 'Biologia' },
-                { value: 'Ciências', label: 'Ciências' },
-                { value: 'Educação Física', label: 'Educação Física' },
-                { value: 'Física', label: 'Física' },
-                { value: 'Geografia', label: 'Geografia' },
-                { value: 'História', label: 'História' },
-                { value: 'Matemática', label: 'Matemática' },
-                { value: 'Português', label: 'Português' },
-                { value: 'Química', label: 'Química' },
+                { value: "Artes", label: "Artes" },
+                { value: "Biologia", label: "Biologia" },
+                { value: "Educação Física", label: "Educação Física" },
+                { value: "Espanhol", label: "Espanhol" },
+                { value: "Filosofia", label: "Filosofia" },
+                { value: "Física", label: "Física" },
+                { value: "Geografia", label: "Geografia" },
+                { value: "História", label: "História" },
+                { value: "Inglês", label: "Inglês" },
+                { value: "Matemática", label: "Matemática" },
+                { value: "Música", label: "Música" },
+                { value: "Português", label: "Português" },
+                { value: "Química", label: "Química" },
+                { value: "Redação", label: "Redação" },
+                { value: "Sociologia", label: "Sociologia" },
               ]}
             />
             <Input
