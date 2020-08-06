@@ -3,9 +3,9 @@ import { StyleSheet } from 'react-native';
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#8257E5',
+    backgroundColor: '#8257e5',
     justifyContent: 'center',
-    padding: 40
+    padding: 40,
   },
 
   content: {
@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
 
   title: {
     fontFamily: 'Archivo_700Bold',
-    color: '#FFF',
+    color: '#fff',
     fontSize: 32,
     lineHeight: 37,
     maxWidth: 180,
@@ -27,23 +27,23 @@ const styles = StyleSheet.create({
     fontSize: 16,
     lineHeight: 26,
     fontFamily: 'Poppins_400Regular',
-    maxWidth: 240
+    maxWidth: 240,
   },
 
   okButton: {
     marginVertical: 40,
     backgroundColor: '#04d361',
     height: 58,
-    alignItems: "center",
+    alignItems: 'center',
     justifyContent: 'center',
-    borderRadius: 8
+    borderRadius: 8,
   },
 
   okButtonText: {
-    color: '#FFF',
+    color: '#fff',
     fontSize: 16,
-    fontFamily: 'Archivo_700Bold'
-  }
+    fontFamily: 'Archivo_700Bold',
+  },
 });
 
 export default styles;

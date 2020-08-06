@@ -1,10 +1,17 @@
-import { StyleSheet } from 'react-native';
+import React from 'react';
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#f0f0f7'
-  }
-})
+import { View } from 'react-native';
 
-export default styles;
+import PageHeader from '../../components/PageHeader';
+
+import styles from './styles';
+
+function Favorites() {
+  return (
+    <View style={styles.container}>
+      <PageHeader title="Meus proffys disponíveis" />
+    </View>
+  );
+}
+
+export default Favorites;

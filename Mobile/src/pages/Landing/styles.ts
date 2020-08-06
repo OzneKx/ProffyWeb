@@ -3,19 +3,19 @@ import { StyleSheet } from 'react-native';
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#8257E5',
+    backgroundColor: '#8257e5',
     justifyContent: 'center',
-    padding: 40
+    padding: 40,
   },
 
   banner: {
     width: '100%',
-    resizeMode: 'contain'
+    resizeMode: 'contain',
   },
 
   title: {
     fontFamily: 'Poppins_400Regular',
-    color: '#FFF',
+    color: '#fff',
     fontSize: 20,
     lineHeight: 30,
     marginTop: 80,
@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
   buttonsContainer: {
     flexDirection: 'row',
     marginTop: 40,
-    justifyContent: 'space-between'
+    justifyContent: 'space-between',
   },
 
   button: {
@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#333',
     borderRadius: 8,
     padding: 24,
-    justifyContent: 'space-between'
+    justifyContent: 'space-between',
   },
 
   buttonPrimary: {
@@ -45,12 +45,12 @@ const styles = StyleSheet.create({
   },
 
   buttonSecondary: {
-    backgroundColor: '#04d361'
+    backgroundColor: '#04d361',
   },
 
   buttonText: {
     fontFamily: 'Archivo_700Bold',
-    color: '#FFF',
+    color: '#fff',
     fontSize: 20,
   },
 
@@ -60,8 +60,8 @@ const styles = StyleSheet.create({
     fontSize: 12,
     lineHeight: 20,
     maxWidth: 140,
-    marginTop: 40
-  }
+    marginTop: 40,
+  },
 });
 
 export default styles;
