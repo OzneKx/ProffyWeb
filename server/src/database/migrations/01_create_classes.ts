@@ -1,4 +1,4 @@
-import Knex from "knex";
+import Knex from 'knex';
 
 export async function up(knex: Knex) {
   return knex.schema.createTable('classes', table => {
@@ -10,8 +10,8 @@ export async function up(knex: Knex) {
       .notNullable()
       .references('id')
       .inTable('users')
-      .onUpdate('CASCADE')
-      .onDelete('CASCADE');
+      .onDelete('CASCADE')
+      .onUpdate('CASCADE');
   });
 }
 
